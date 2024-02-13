@@ -46,7 +46,7 @@ export default function Form(){
                     <label htmlFor='age'>Qual sua idade atual?</label>
                     <input type='number' id='age' name='user_age' placeholder='Digite sua idade' required/>
                     <label htmlFor="phone">Telefone</label>
-                    <input type="tel" id="phone" name='user_phone' pattern="[0-9]{2} [0-9]{9}" placeholder='12 123456789' />
+                    <input type="tel" id="phone" name='user_phone' pattern="[0-9]{2} [0-9]{9}" placeholder='83 991908988' />
                     <label htmlFor='email'>Email para contato</label>
                     <input type='email' id='email' placeholder='email@email.com' name='user_email' required/>
                     <label htmlFor='textarea'>Sua mensagem</label>

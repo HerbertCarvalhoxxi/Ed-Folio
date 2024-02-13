@@ -165,7 +165,7 @@ export default function Home() {
                     <div className='aboutBox'>
                         <h1 className='titleBox'>Experiência <ion-icon name="eye-outline"></ion-icon></h1>
                         <p>Experiência em psicologia clínica, atuei em estágios atendendo crianças, adolescentes e adultos, com demandas de ansiedade, relacionamento e autoestima. 
-                        Ao longo da minha formação tive práticas em instituições privadas com estudos teóricos ao que diz respeito a Psicologia Institucional, estágio em Projeto Social relacionado a ONGS de João Pessoa, práticas de estágio referentes ao estudo de Psicologia de grupos, estágio em uma empresa privada de Hotelaria com ênfase na Psicologia e Trabalho. Participei da Liga Acadêmica de Psicanálise (LAEP), monitor da disciplina de Teorias da Personalidade (enquanto discente).</p>
+                        Ao longo da minha formação tive práticas em instituições privadas com estudos teóricos ao que diz respeito a Psicologia Institucional, estágio em Projeto Social relacionado a ONGS de João Pessoa, práticas de estágio referentes ao estudo de Psicologia de grupos, estágio em uma empresa privada de Hotelaria com ênfase na Psicologia e Trabalho. Participei da Liga Acadêmica de Psicanálise (LAEP), monitor da disciplina de Teorias da Personalidade.</p>
                     </div>
                     <div className='aboutBox'>
                         <h1 className='titleBox'>Formação <ion-icon name="school-outline"></ion-icon></h1>
@@ -186,7 +186,7 @@ export default function Home() {
                     <p className='titleProjects'>Motivação e Resiliência: A Arte de Reinventar-se em Meio as  Tecnologias</p>
                 </div>
             </section>
-            <section className='links'>
+            <section className='links' id='contacts'>
                 <div className="linksContainer">
                     <p className="section__text__p1">Se interessou?</p>
                     <h1 className="titleLinks">Fale Comigo</h1>

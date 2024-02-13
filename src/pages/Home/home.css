@@ -478,15 +478,17 @@ ion-icon{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .buttonArea .linkForm{
-  margin: 0 0 5px 0;
+  margin: 0px 5px 0px 0px;
 
 }
 
 .buttonArea .linkTwo{
-  margin: 5px 0 0 0;
+  margin: 0px 0px 0px 5px;
 }
 
 
@@ -555,17 +557,49 @@ ion-icon{
   .logo{
     width: 15%;
   }
+
+  .buttonArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .buttonArea .linkForm{
+    margin: 0 5px 0 0;
+  
+  }
+  
+  .buttonArea .linkTwo{
+    margin: 0 0 0 5px;
+  }
+
 }
 
 @media only screen and (max-width: 300px){
   .logo{
     width: 20%;
   }
-
   .logo img{
     width: 100%;
   }
 
+  .buttonArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .buttonArea .linkForm{
+    margin: 0 0 3px 0;
+  
+  }
+  
+  .buttonArea .linkTwo{
+    margin: 3px 0 0 0;
+  }
 }
 
 

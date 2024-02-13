@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom" 
 import Img from '../../assets/ed3.jpg'
 import './links.css'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Links(){
+
+    function copyLink(){
+        navigator.clipboard.writeText('psicologo.edinaldoalves@gmail.com')
+        toast.success('Email Copiado Com Sucesso')
+      }
+
     return(
         <section className='links' id='contacts'>
                 <div className="linksContainer2">
